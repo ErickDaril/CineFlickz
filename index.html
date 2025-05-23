@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      CineFlick 2025 - Conteúdo ilimitado por um valor que cabe no seu bolso!
+    </title>
+    <meta
+      name="description"
+      content="Tenha acesso a mais de 2 mil canais, como Netflix, Disney+, HBO Max e mais, por um preço acessível! Com a CineFlick, você economiza e assiste com qualidade, estabilidade e suporte dedicado."
+    />
+    <link rel="icon" type="image/png" href="pics/1666097363.webp" />
+
+    <!-- CSS e JS compilados (Vite ou outro bundler) -->
+    <link
+      rel="stylesheet"
+      href="styles/index-DJWxgBat.css"
+      crossorigin="anonymous"
+    />
+    <script
+      type="module"
+      src="scripts/index-Cc6qu9lC.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animações suaves com Tailwind (recomendo usá-lo) -->
+    <style>
+      /* Fallback para animações suaves */
+      .fade-in {
+        opacity: 0;
+        animation: fadeIn ease 1s forwards;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+
+  <body class="bg-black text-white font-sans overflow-x-hidden">
+    <div id="root" class="fade-in"></div>
+
+    <!-- Player opcional, caso precise -->
+    <script src="scripts/player.js"></script>
+  </body>
+</html>
